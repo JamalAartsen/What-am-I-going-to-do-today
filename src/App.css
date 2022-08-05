@@ -1,3 +1,23 @@
-* {
-    background-color: brown;
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #CE0DFC, #F20CD1, #7A00E6);
+    font-family: 'Indie Flower', cursive;
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    margin: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
