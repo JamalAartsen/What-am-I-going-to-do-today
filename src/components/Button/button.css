@@ -1,0 +1,18 @@
+#button {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    font-size: 20px;
+    width: 300px;
+    background-color: rgba(255, 240, 240, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+}
+
+#button:focus {
+    box-shadow: none;
+}
