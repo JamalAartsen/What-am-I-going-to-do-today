@@ -9,7 +9,7 @@ export default function ActivityViewModel() {
         const { result, error } = await getActivityUseCase()
         
         setError(error)
-        setActitivity(result)
+        setActitivity(result.activity)
     }
 
     return {

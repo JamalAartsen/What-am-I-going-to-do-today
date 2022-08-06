@@ -2,7 +2,7 @@ import fakeData from "./FakeData"
 
 export function fetchData() {
     try {
-        let data = fakeData[1].activity
+        let data = fakeData[2]
 
         return Promise.resolve({ error: null, result: data })
 
