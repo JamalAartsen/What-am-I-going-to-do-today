@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import { getActivityUseCase } from "../WDomain/GetActivity"
 
 export default function ActivityViewModel() {
@@ -9,6 +9,7 @@ export default function ActivityViewModel() {
         const { result, error } = await getActivityUseCase()
         
         setError(error)
+        // TODO: Called multiple times
         setActitivity(result.activity)
     }
 

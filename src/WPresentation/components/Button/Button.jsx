@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button"
 const CustomButton = (props) => {
     return (
         <div>
-            <Button id="button">{props.buttonTitle}</Button>
+            <Button onClick={props.updateActivity} id="button">{props.buttonTitle}</Button>
         </div>
     )
 }
