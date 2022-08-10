@@ -5,3 +5,13 @@
     align-items: center;
     height: 100vh;
 }
+
+.inside-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    display: table;
+    margin: auto;
+    border-radius: 20px;
+    padding: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
