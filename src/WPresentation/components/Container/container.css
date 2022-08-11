@@ -1,17 +1,19 @@
-.container {
+.head-container {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
 
-.inside-container {
-    background-color: rgba(255, 255, 255, 0.05);
-    display: table;
-    margin: auto;
-    border-radius: 20px;
-    padding: 100px;
+.card-container {
+    display: table !important;
+    margin: auto !important;
+    text-align: center !important;
+    border: none !important;
+    border-radius: 20px !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 

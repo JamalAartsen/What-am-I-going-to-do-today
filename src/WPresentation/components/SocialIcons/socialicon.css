@@ -1,0 +1,15 @@
+.social-icon {
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 20px 10px 0px;
+}
+
+.social-icon-footer {
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 20px;
+}
+
+.social-icon-footer:hover {
+    color: #200331;
+}

@@ -1,7 +1,25 @@
 .footer {
-    background-color: aliceblue;
-    position: absolute;
+    background-color: rgba(255, 255, 255, 0) !important;
+    /* Op een gegeven moment moet dit relative worden */
+    position: relative;
     left: 0%;
     bottom: 0%;
     width: 100vw;
+    padding: 20px;
+}
+
+.social-container-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-icon-container {
+   position: absolute;
+   right: 30px;
+   margin-top: 10px;
+}
+
+.copyright-text {
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
 }

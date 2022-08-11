@@ -6,6 +6,7 @@
     background-color: rgba(255, 240, 240, 0);
     border: 2px solid white;
     border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 #button:hover {
