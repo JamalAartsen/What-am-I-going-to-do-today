@@ -6,6 +6,7 @@ import CustomButton from "../Button/Button"
 import ActivityViewModel from "../../ViewModels"
 import { motion } from "framer-motion"
 import LoadingImage from "../LoadingIcon/LoadingIcon"
+import Footer from "../Footer/Footer"
 
 const Container = () => {
     const { getActivity, activity, loading, setLoading, disable, setDisable } = ActivityViewModel()
@@ -26,6 +27,7 @@ const Container = () => {
 
                     <CustomButton disabled={disable} updateActivity={updateActivity} buttonTitle="Next" />
                 </div>
+                <Footer />
             </motion.div>
         </div>
     )
